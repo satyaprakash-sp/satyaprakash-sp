@@ -95,6 +95,7 @@ TCAD-based (SILVACO Atlas) study of thermal resistance (R<sub>TH</sub>) and RF p
 - 🎖️ **IPR Student Coordinator**, Institution's Innovation Council (IIC), BIT Mesra
 
 ---
-<p align="center"> <img src="https://raw.githubusercontent.com/SatyaBitian/SatyaBitian/output/github-snake-dark.svg" /> </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=SatyaBitian&color=0A66C2&style=flat-square&label=Profile+Views" /> </p> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:181717&height=120&section=footer" />
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=SatyaBitian&color=0D1117&style=flat-square&label=Profile+Views" /> </p> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:0A66C2&height=150&section=footer" />
+
 
 <p align="center"><i>Open to Data Science, VLSI/Analog IC, and EV/embedded systems roles.</i></p>
