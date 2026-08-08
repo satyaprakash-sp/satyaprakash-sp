@@ -95,5 +95,35 @@ TCAD-based (SILVACO Atlas) study of thermal resistance (R<sub>TH</sub>) and RF p
 - 🎖️ **IPR Student Coordinator**, Institution's Innovation Council (IIC), BIT Mesra
 
 ---
+name: Generate Snake
 
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs once a day
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: SatyaBitian
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+
+      - name: Push snake output to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 <p align="center"><i>Open to Data Science, VLSI/Analog IC, and EV/embedded systems roles.</i></p>
