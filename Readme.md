@@ -1,4 +1,4 @@
-@@ -1 +1,98 @@
+
 <h1 align="center">Hi, I'm Satya Prakash 👋</h1>
 <h3 align="center">ECE Student @ BIT Mesra | Analog IC & Semiconductor Device Research | Data Science</h3>
 
